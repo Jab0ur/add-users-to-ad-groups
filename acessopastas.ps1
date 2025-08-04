@@ -1,6 +1,8 @@
 <#
 .SYNOPSIS
   Adiciona usuários a grupos de AD listados em arquivos TXT.
+.AUTHOR Gabriel dos Santos Jabour
+.VERSION 1.0
 .DESCRIPTION
   Lê um arquivo de texto com UPNs (um por linha) e outro com nomes de grupos (um por linha),
   e adiciona cada usuário a cada grupo.

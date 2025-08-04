@@ -1,3 +1,9 @@
+<!---
+.AUTHOR Gabriel dos Santos Jabour
+.VERSION 1.0
+.DATE 2025-08-04
+-->
+
 # 📝 Add Users to AD Groups from Text Files
 
 A PowerShell script to bulk-add Azure AD (or on-prem AD) users into multiple groups based on two simple text files: one listing user UPNs and another listing group names.
@@ -5,6 +11,13 @@ A PowerShell script to bulk-add Azure AD (or on-prem AD) users into multiple gro
 ---
 
 ## 🌐 English
+
+### 🔹 0. Download  
+Clone this repository or download the script files manually:
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
 
 ### 🔹 1. Overview  
 This script (`Add-FromTxt.ps1`) reads:
@@ -90,6 +103,13 @@ Place all three files in the **same folder**:
 ---
 
 ## 🌐 Português
+
+### 🔹 0. Download  
+Clone este repositório ou baixe os arquivos manualmente:
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
 
 ### 🔹 1. Visão Geral  
 Este script (`Add-FromTxt.ps1`) lê:
